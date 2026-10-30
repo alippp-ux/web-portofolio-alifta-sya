@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi Alifta Syahadah Riska, mahasiswa Sistem Informasi.">
+  <title>Alifta — Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="background-orb orb-one"></div><div class="background-orb orb-two"></div><div class="background-orb orb-three"></div>
+  <header class="site-header glass">
+    <a class="brand" href="index.html"><span class="brand-spark">✦</span> alifta<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a class="active" href="#home">Home</a><a href="#about">About</a>
+      <div class="nav-dropdown"><a href="#menu" class="dropdown-label">Explore <span>⌄</span></a>
+        <div class="dropdown-panel glass">
+          <a href="what-can-i-do.html">What Can I Do?</a>
+          <a href="fun-facts.html">Fun Facts About Me</a>
+          <a href="a-little-more.html">A Little More About Me</a>
+        </div>
+      </div>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Ganti tampilan" title="Ganti tampilan">☼</button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> INFORMATION SYSTEMS STUDENT</span>
+        <h1>Hi, I'm <span class="script-name">Alifta!</span><span class="tiny-spark">✧</span></h1>
+        <p class="hero-subtitle">Exploring technology, learning new things,<br class="desktop-only"> and creating with curiosity.</p>
+        <p class="hero-description">Saya mahasiswa Sistem Informasi di Universitas Negeri Surabaya yang tertarik pada teknologi dan kreativitas digital. Saya senang mempelajari hal baru, mengeksplorasi teknologi, dan mengembangkan kemampuan melalui berbagai pengalaman.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">About Me <span>↗</span></a>
+          <a class="button button-ghost" href="#contact">Contact Me <span>♡</span></a>
+        </div>
+        <div class="mini-tags">
+          <div class="mini-tag glass"><span class="tag-icon">✿</span><span><b>Creative</b><small>Design & ideas</small></span></div>
+          <div class="mini-tag glass"><span class="tag-icon">◎</span><span><b>Curious</b><small>Tech & learning</small></span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame glass">
+          <div class="portrait-placeholder">
+            <div class="portrait-initials">ASR</div>
+            <span>YOUR PHOTO HERE</span>
+          </div>
+        </div>
+        <div class="float-note note-top glass">let's grow<br>together <span>♡</span></div>
+        <div class="float-sticker sticker-star">✦</div>
+        <div class="float-sticker sticker-spark">✧</div>
+        <div class="float-bubble bubble-one"></div><div class="float-bubble bubble-two"></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> scroll to explore</a>
+    </section>
+
+    <section class="section-shell about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">A LITTLE INTRODUCTION</span>
+        <h2>Get to know <span class="script-name">me</span> <span class="heading-spark">✧</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <p class="lead">Halo! Aku Alifta.</p>
+          <p>Saya mahasiswa Sistem Informasi yang memiliki ketertarikan pada teknologi dan kreativitas digital.</p>
+          <p>Saya senang mempelajari hal-hal baru, mengeksplorasi perkembangan teknologi, serta mencari tahu bagaimana teknologi dapat membantu mempermudah aktivitas sehari-hari. Saya juga tertarik pada dunia desain dan pembuatan konten digital.</p>
+          <p>Bagi saya, proses belajar adalah kesempatan untuk terus berkembang. Saya ingin mengasah kemampuan, menambah pengalaman, dan mengembangkan ide menjadi sesuatu yang bermanfaat.</p>
+          <button class="button button-primary say-hi" id="sayHiButton">Say Hi! <span>↗</span></button>
+          <p class="hi-response" id="hiResponse" aria-live="polite"></p>
+        </div>
+        <div class="about-side">
+          <div class="photo-card glass">
+            <div class="photo-placeholder"><span>✿</span><b>A little moment</b><small>Tambahkan foto favoritmu di sini</small></div>
+          </div>
+          <div class="quote-card glass"><span class="quote-mark">“</span><p>Small steps still move you forward.</p><span class="quote-spark">✦</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell menu-section" id="menu">
+      <div class="section-heading centered">
+        <span class="eyebrow">TAKE A CLOSER LOOK</span>
+        <h2>A little more <span class="script-name">about me</span></h2>
+        <p>Choose a card and explore another side of my world.</p>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card glass" href="what-can-i-do.html"><span class="feature-icon blue-icon">✿</span><span class="card-arrow">↗</span><h3>What Can I Do?</h3><p>Skills, tools, and things I enjoy doing.</p><span class="card-link">Explore more <b>→</b></span></a>
+        <a class="feature-card glass" href="fun-facts.html"><span class="feature-icon lavender-icon">✧</span><span class="card-arrow">↗</span><h3>Fun Facts About Me</h3><p>Little things that make me, me!</p><span class="card-link">Get to know me <b>→</b></span></a>
+        <a class="feature-card glass" href="a-little-more.html"><span class="feature-icon pink-icon">♡</span><span class="card-arrow">↗</span><h3>A Little More About Me</h3><p>My little routines, preferences, and more.</p><span class="card-link">Read more <b>→</b></span></a>
+      </div>
+    </section>
+
+    <section class="section-shell random-section">
+      <div class="section-heading centered">
+        <span class="eyebrow">A LITTLE PAUSE</span><h2>A little message <span class="script-name">for you</span></h2>
+        <p>Need a tiny reminder? Pick one for today.</p>
+      </div>
+      <div class="message-card glass">
+        <div class="message-cloud">✦</div><span class="message-label">YOUR RANDOM NOTE</span>
+        <p id="randomMessage" aria-live="polite">Sometimes, a small step is still a big achievement.</p>
+        <button class="button button-primary" id="randomButton">Random Message <span>✧</span></button>
+      </div>
+    </section>
+
+    <section class="section-shell love-section">
+      <div class="love-card glass">
+        <div class="love-heart">♡</div><span class="eyebrow">A LITTLE APPRECIATION</span>
+        <h2>Enjoyed my portfolio?</h2><p>Leave a little love before you go!</p>
+        <button class="button button-ghost love-button" id="loveButton"><span>♡</span> Leave Some Love</button>
+        <p class="love-count" aria-live="polite"><strong id="loveCount">0</strong> little love(s) so far</p>
+        <p class="love-thanks" id="loveThanks" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="section-shell contact-section" id="contact">
+      <div class="section-heading">
+        <span class="eyebrow">LET'S KEEP IN TOUCH</span><h2>Let's <span class="script-name">connect!</span></h2>
+        <p>Terbuka untuk berkenalan, berbagi ide, berdiskusi, dan menjalin koneksi baru.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="contact-item glass" href="mailto:your.email@example.com"><span class="contact-icon">✉</span><span><small>Email</small><b>your.email@example.com</b></span><span class="contact-arrow">↗</span></a>
+        <a class="contact-item glass" href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noreferrer"><span class="contact-icon">◉</span><span><small>WhatsApp</small><b>Tambahkan nomor WhatsApp</b></span><span class="contact-arrow">↗</span></a>
+        <a class="contact-item glass" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span class="contact-icon">in</span><span><small>LinkedIn</small><b>Visit my profile</b></span><span class="contact-arrow">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home">✦ alifta<span class="brand-dot">.</span></a><p>Made with curiosity & a little bit of blue ♡</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
